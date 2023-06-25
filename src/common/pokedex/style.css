@@ -1,0 +1,32 @@
+.pokedex-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pokedex-card{
+    background-color: #f3ef1a;
+    border-radius: 40px;
+    color: black;
+    cursor: pointer;
+    width: 30vh;
+    height:40vh;
+    margin: 1rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    transition: var(--transition);
+}
+
+.pokedex-info{
+    background-color: white;
+    border-radius: 40px;
+}
+
+.pokedex-info .types{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.pokedex-card:hover{
+    background-color: var(--color-secondary);
+}
