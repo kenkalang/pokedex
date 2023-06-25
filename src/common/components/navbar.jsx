@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import { withRouter } from '../witRouter';
-
+import logoImage from '../assets/logo.png';
 class Navbar extends React.Component {
     constructor(props) {
         super(props);
@@ -53,7 +53,7 @@ class Navbar extends React.Component {
                 <div className="logo">
                     <img
                         onClick={() => this.handleRouteOnclick('/')}
-                        src="/src/common/assets/logo.png"
+                        src={logoImage}
                     />
                 </div>
                 <ul className="navbar-item">
