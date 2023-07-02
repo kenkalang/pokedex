@@ -22,12 +22,14 @@ input{
 
 .container-home{
     color: white;
+    min-height: 90vh;
     background-color: var(--color-background);
 }
 
 .pokemon-container{
     padding: 1rem 5rem;
     display: flex;
+    min-height: 83vh;
 }
 
 .pokemon{

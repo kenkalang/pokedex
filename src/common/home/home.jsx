@@ -60,7 +60,6 @@ class Home extends React.Component {
         const { maxPage, currentPage } = this.state;
         let paginationNumbers = [];
 
-        // Calculate the range of pagination numbers to display
         let startNumber = Math.max(currentPage - 1, 1);
         let endNumber = Math.min(startNumber + 2, maxPage);
 
